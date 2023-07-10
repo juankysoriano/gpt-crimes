@@ -1,0 +1,6 @@
+aiogram
+requests
+json5
+langchain
+openai
+python-dotenv
