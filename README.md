@@ -1,4 +1,4 @@
-# GPT-Crime 🕵🏻‍♂️ - Telegram Bot 🤖
+# GPT-Crimes 🕵🏻‍♂️ - Telegram Bot 🤖
 
 https://github.com/juankysoriano/gpt-crimes/assets/7768517/e4fb4fa0-f302-4ec9-a15f-10e53a7ab69a
 
