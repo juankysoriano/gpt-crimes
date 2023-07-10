@@ -16,7 +16,8 @@ This project is licensed under the terms of the MIT license.
 
 ## Getting Started
 
-1. First, you need to create a Telegram bot. If you're not sure how to do this, you can find instructions [here](https://core.telegram.org/bots#creating-a-new-bot).
+1. First, you need to create a Telegram bot. It's very simple, and you just need the `TELEGRAM_BOT_TOKEN`
+If you're not sure how to do this, you can find instructions [here](https://core.telegram.org/bots#creating-a-new-bot).
 
 2. Once you have created your bot, update your `.env` file with your Telegram bot token and your OpenAI API key. Your `.env` should look like this:
 
