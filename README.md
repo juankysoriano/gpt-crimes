@@ -1,4 +1,4 @@
-# GPT-Crime-Solver Telegram Bot
+# GPT-Crime 🕵🏻‍♂️ - Telegram Bot 🤖
 
 Welcome to the GPT-Crime-Solver project! This is an experimental Telegram bot designed to provide an immersive conversational adventure game experience. Powered by the advanced GPT (Generative Pretrained Transformer) technology, it presents interactive storytelling, conversational gameplay, and engaging crime-solving elements.
 
