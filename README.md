@@ -1,5 +1,7 @@
 # GPT-Crime 🕵🏻‍♂️ - Telegram Bot 🤖
 
+https://github.com/juankysoriano/gpt-crimes/assets/7768517/e4fb4fa0-f302-4ec9-a15f-10e53a7ab69a
+
 Welcome to the GPT-Crime-Solver project! This is an experimental Telegram bot designed to provide an immersive conversational adventure game experience. Powered by the advanced GPT (Generative Pretrained Transformer) technology, it presents interactive storytelling, conversational gameplay, and engaging crime-solving elements.
 
 The bot narrates a crime story that is influenced by the choices and interactions of the player. It uses natural language processing to understand and respond to player inputs, creating a dynamic text-based gaming experience. While primarily a game, it can also be seen as a tool to enhance problem-solving, critical thinking, and language skills.
