@@ -26,7 +26,9 @@ The history so far is:
 
 Consider the last taken action was: {last_action}
 
-Current progress of the story is {percentage}. Make the story progress accordingly, for example the closer to 100% the more the story should be wrapping up. Once the story is over, give an exit to the main character. For example, the main character dies, or is fired, or gets arrested, or the murderer scapes forever and they are never seen again...
+Current progress of the story is {percentage}. Make the story progress accordingly, for example the closer to 100% the more the story should be wrapping up. Once the story is over, there are two options:
+    1. The crime is resolved. The main character has a good ending. For example they get promoted, or they get a new job, or they get a new girlfriend, or they become famous...
+    2. The crime is not resolved. Give an exit to the main character. For example, the main character dies, or is fired, or gets arrested, or the murderer scapes forever and they are never seen again...
 
 Output a JSON with the following fields:
     - "text": the next short paragraph of the story. Narrated on the style of Truman Capote's In Cold Blood. Use Markdown syntax. E.g italic for thoughts or quotes. VERY IMPORTANT
