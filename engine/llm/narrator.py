@@ -28,7 +28,9 @@ class _Narrator:
         result["image_url"] = self._image(prompt=result["image"])
         return result
 
-    async def next_scene(self, history, last_action):
+    async def next_scene(
+        self, history, last_action, scene_number, total_scenes
+    ):
         llm = ChatOpenAI(
             verbose=True,
             model="gpt-4",
@@ -36,7 +38,9 @@ class _Narrator:
         )
         result = await llm.apredict(
             text=CONTINUE_STORY_TEMPLATE.format(
-                history=history, last_action=last_action
+                history=history,
+                last_action=last_action,
+                percentage=(scene_number / total_scenes) * 100,
             ),
         )
         result = json.parse_and_check_json_markdown(

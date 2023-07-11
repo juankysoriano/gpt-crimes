@@ -11,6 +11,18 @@ class CrimeGame:
         self.narrator = _Narrator()
 
     async def take_option(self, option):
+        if self.taken_actions == self.total_actions:
+            return {
+                "display": {
+                    "action": "The End",
+                    "text": "*Game Over*. You have reached the end of the story. You can restart the game with /restart",
+                    "image": "https://www.muylinux.com/wp-content/uploads/2014/01/mljuegos0.png",
+                    "taken_actions": self.taken_actions,
+                    "total_actions": self.total_actions,
+                    "available_actions": ["/restart"],
+                }
+            }
+
         action = option
 
         self.history.append(
@@ -23,7 +35,10 @@ class CrimeGame:
         self.taken_actions += 1
         history = "\n".join([entry["text"] for entry in self.history])
         self.current_scene = await self.narrator.next_scene(
-            history=history, last_action=action
+            history=history,
+            last_action=action,
+            total_scenes=self.total_actions,
+            scene_number=self.taken_actions,
         )
 
         return {

@@ -34,10 +34,13 @@ async def _display_story(message: types.Message, scene):
     actions = scene["display"]["available_actions"]
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
     keyboard.add(*actions)
-
+    text = scene["display"]["text"]
+    current_scene = scene["display"]["taken_actions"]
+    total_scenes = scene["display"]["total_actions"]
+    percentage = (current_scene / total_scenes) * 100
     await message.bot.send_message(
         message.chat.id,
-        scene["display"]["text"],
+        f"*Progress*: {percentage}%/n/n{text}",
         parse_mode="Markdown",
         reply_markup=keyboard,
     )
