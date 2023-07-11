@@ -1,4 +1,6 @@
-# GPT-Crime 🕵🏻‍♂️ - Telegram Bot 🤖
+# GPT-Crimes 🕵🏻‍♂️ - Telegram Bot 🤖
+
+https://github.com/juankysoriano/gpt-crimes/assets/7768517/e4fb4fa0-f302-4ec9-a15f-10e53a7ab69a
 
 Welcome to the GPT-Crime-Solver project! This is an experimental Telegram bot designed to provide an immersive conversational adventure game experience. Powered by the advanced GPT (Generative Pretrained Transformer) technology, it presents interactive storytelling, conversational gameplay, and engaging crime-solving elements.
 
@@ -14,7 +16,8 @@ This project is licensed under the terms of the MIT license.
 
 ## Getting Started
 
-1. First, you need to create a Telegram bot. If you're not sure how to do this, you can find instructions [here](https://core.telegram.org/bots#creating-a-new-bot).
+1. First, you need to create a Telegram bot. It's very simple, and you just need the `TELEGRAM_BOT_TOKEN`
+If you're not sure how to do this, you can find instructions [here](https://core.telegram.org/bots#creating-a-new-bot).
 
 2. Once you have created your bot, update your `.env` file with your Telegram bot token and your OpenAI API key. Your `.env` should look like this:
 
