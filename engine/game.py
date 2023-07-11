@@ -57,7 +57,7 @@ class CrimeGame:
 
     async def new_story(self):
         self.current_scene = await self.narrator.new_story()
-        self.taken_actions += 1
+        self.taken_actions = 0
 
         return {
             "display": {
