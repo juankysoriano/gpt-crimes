@@ -40,7 +40,7 @@ class _Narrator:
             text=CONTINUE_STORY_TEMPLATE.format(
                 history=history,
                 last_action=last_action,
-                percentage=(scene_number / total_scenes) * 100,
+                percentage=round((scene_number / total_scenes) * 100),
             ),
         )
         result = json.parse_and_check_json_markdown(

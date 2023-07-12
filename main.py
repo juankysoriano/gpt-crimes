@@ -37,7 +37,7 @@ async def _display_story(message: types.Message, scene):
     text = scene["display"]["text"]
     current_scene = scene["display"]["taken_actions"]
     total_scenes = scene["display"]["total_actions"]
-    percentage = (current_scene / total_scenes) * 100
+    percentage = round((current_scene / total_scenes) * 100)
     await message.bot.send_message(
         message.chat.id,
         f"*Progress*: {percentage}%\n\n{text}",
